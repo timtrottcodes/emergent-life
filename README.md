@@ -19,6 +19,11 @@ It simulates cellular automata where simple rules lead to surprisingly complex a
   - Displays the number of generations evolved.
 - **Responsive UI**
   - Styled with Bootstrap for a clean and simple layout.
+- **Starter Patterns**
+  - Load famous patterns from a dropdown:
+    - **Glider** – the classic moving spaceship.
+    - **Pulsar** – a large period-3 oscillator.
+    - **Gosper Glider Gun** – produces an endless stream of gliders.
 
 ---
 
@@ -59,10 +64,10 @@ Just open the `index.html` file in your browser. No build tools or servers requi
 
 ## ✨ Future Improvements
 
-* Responsive canvas that auto-scales to browser size.
-* Save & load patterns (e.g., gliders, oscillators).
+* Ability to save & load custom patterns.
 * Step-through mode for analyzing one generation at a time.
-* Mobile-friendly controls.
+* Pattern library with thumbnails and descriptions.
+* Export grid state as JSON or image.
 
 ---
 
